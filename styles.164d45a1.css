@@ -164,6 +164,9 @@ button {
 .hero .content .social-links .tiktok {
   background-image: url("/tiktok2x.b5e57091.png");
 }
+.hero .content .social-links .pancakeswap {
+  background-image: url("/pancake2x.7892137c.png");
+}
 .hero .content .tweets {
   border: 0 solid #4A4637;
   border-width: 0.03rem 0;
@@ -440,4 +443,43 @@ button {
   font-weight: normal;
 }
 
-/*# sourceMappingURL=/styles.164d45a1.css.map */
+#deeplinks .wallet-options {
+  display: flex;
+  flex-direction: row;
+  padding: 0.2rem;
+}
+#deeplinks .wallet-options > * {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0.2rem;
+  width: 2rem;
+}
+#deeplinks .wallet-options > *:before {
+  height: 2rem;
+  width: 2rem;
+  content: "";
+  background-size: contain;
+  flex: 0 0 auto;
+}
+#deeplinks .wallet-options .trustwallet:before {
+  background-image: url("/trustwallet2x.78dd86f6.png");
+}
+#deeplinks .wallet-options .trustwallet:after {
+  content: "Trust Wallet";
+}
+#deeplinks .wallet-options .metamask:before {
+  background-image: url("/metamask2x.d5c0448b.png");
+}
+#deeplinks .wallet-options .metamask:after {
+  content: "MetaMask";
+}
+#deeplinks .wallet-options .huh {
+  display: none;
+}
+#deeplinks .wallet-options .huh:before {
+  background-image: url("/huh2x.4df62fde.png");
+}
+#deeplinks .wallet-options .huh:after {
+  content: "Huh?";
+}

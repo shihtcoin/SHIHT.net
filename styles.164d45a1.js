@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./background.jpg":[["background.9e15dd99.jpg","background.jpg"],"background.jpg"],"./images\\hero.png":[["hero.d8eebeaf.png","images/hero.png"],"images/hero.png"],"./images\\socials\\twitter2x.png":[["twitter2x.a47f4bfb.png","images/socials/twitter2x.png"],"images/socials/twitter2x.png"],"./images\\socials\\telegram2x.png":[["telegram2x.c8c5a0ce.png","images/socials/telegram2x.png"],"images/socials/telegram2x.png"],"./images\\socials\\discord2x.png":[["discord2x.30006f67.png","images/socials/discord2x.png"],"images/socials/discord2x.png"],"./images\\socials\\reddit2x.png":[["reddit2x.de72728a.png","images/socials/reddit2x.png"],"images/socials/reddit2x.png"],"./images\\socials\\tiktok2x.png":[["tiktok2x.b5e57091.png","images/socials/tiktok2x.png"],"images/socials/tiktok2x.png"],"_css_loader":"../../AppData/Roaming/nvm/v14.6.0/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../AppData/Roaming/nvm/v14.6.0/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"./background.jpg":[["background.9e15dd99.jpg","background.jpg"],"background.jpg"],"./images\\hero.png":[["hero.d8eebeaf.png","images/hero.png"],"images/hero.png"],"./images\\socials\\twitter2x.png":[["twitter2x.a47f4bfb.png","images/socials/twitter2x.png"],"images/socials/twitter2x.png"],"./images\\socials\\telegram2x.png":[["telegram2x.c8c5a0ce.png","images/socials/telegram2x.png"],"images/socials/telegram2x.png"],"./images\\socials\\discord2x.png":[["discord2x.30006f67.png","images/socials/discord2x.png"],"images/socials/discord2x.png"],"./images\\socials\\reddit2x.png":[["reddit2x.de72728a.png","images/socials/reddit2x.png"],"images/socials/reddit2x.png"],"./images\\socials\\tiktok2x.png":[["tiktok2x.b5e57091.png","images/socials/tiktok2x.png"],"images/socials/tiktok2x.png"],"./images\\socials\\pancake2x.png":[["pancake2x.7892137c.png","images/socials/pancake2x.png"],"images/socials/pancake2x.png"],"./images\\wallets\\trustwallet2x.png":[["trustwallet2x.78dd86f6.png","images/wallets/trustwallet2x.png"],"images/wallets/trustwallet2x.png"],"./images\\wallets\\metamask2x.png":[["metamask2x.d5c0448b.png","images/wallets/metamask2x.png"],"images/wallets/metamask2x.png"],"./images\\wallets\\huh2x.png":[["huh2x.4df62fde.png","images/wallets/huh2x.png"],"images/wallets/huh2x.png"],"_css_loader":"../../AppData/Roaming/nvm/v14.6.0/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../../AppData/Roaming/nvm/v14.6.0/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -217,7 +217,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59987" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53557" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -394,4 +394,3 @@ function hmrAcceptRun(bundle, id) {
   }
 }
 },{}]},{},["../../AppData/Roaming/nvm/v14.6.0/node_modules/parcel-bundler/src/builtins/hmr-runtime.js"], null)
-//# sourceMappingURL=/styles.164d45a1.js.map
